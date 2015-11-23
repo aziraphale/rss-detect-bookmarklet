@@ -1,3 +1,8 @@
+// ==ClosureCompiler==
+// @output_file_name rss.min.js
+// @compilation_level ADVANCED_OPTIMIZATIONS
+// ==/ClosureCompiler==
+
 var query, elements, links=[], others=[], i, element, html, ourWindow;
 try {
     query = "[href$='.atom'], [href*='.atom?'], [href$='.rss'], [href*='.rss?'], [href*='/rss.'], [href*='/feed.'], [href*='/atom.'], [href*='//feeds.feedburner.com/'], [href*='/feed/'], [type='application/atom+xml'], [type='application/rss+xml']";
